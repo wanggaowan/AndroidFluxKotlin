@@ -37,6 +37,7 @@ object Dispatcher {
     /**
      * 分发[Action]
      */
+    @JvmStatic
     fun postAction(action: Action) {
         FluxLogger.logPostAction(action)
         mRxBus.post(action)
@@ -47,6 +48,7 @@ object Dispatcher {
      * 可携带[data]和[throwable]]数据
      */
     @JvmOverloads
+    @JvmStatic
     fun postAction(
         actionType: String,
         data: Any? = null,
