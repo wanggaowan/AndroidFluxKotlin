@@ -1,5 +1,27 @@
 # AndroidFlux-kotlin
 用于Android开发的flux模式
+* [项目github地址](https://github.com/wanggaowan/AndroidFluxKotlin)
+
+[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
+[![](https://jitpack.io/v/wanggaowan/AndroidFluxKotlin.svg)](https://jitpack.io/#wanggaowan/AndroidFluxKotlin)
+
+
+#### 如何使用：
+   1. 添加 JitPack repository到你的build文件
+      ```groovy
+       allprojects {
+           repositories {
+               maven { url 'https://www.jitpack.io' }
+           }
+       }
+      ```
+
+   2. 增加依赖
+      ```groovy
+      dependencies {
+         implementation 'com.github.wanggaowan:AndroidFluxKotlin:1.0'
+      }
+      ```
 
 #### Proguard
 无需添加任何混淆规则，可直接混淆
